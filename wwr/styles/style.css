@@ -1,6 +1,8 @@
 .msg{
     background-color:aquamarine;
     color:black;
+    line-height: 1.5em;
+    padding: 35px;
 }
 #content {
     max-width: 1600px;
@@ -11,6 +13,8 @@ nav a {
     text-align: center;
     color:black;
     text-decoration: none;
+    padding: 35px;
+    margin-left: 150px;
 }
 
 #hero-msg h1 {
@@ -39,6 +43,8 @@ nav a {
 body{
     background-color:aquamarine;
     color:black;
+    margin: 0;
+    padding: 0;
 }
 header{
     background-color:bisque;
@@ -52,6 +58,9 @@ nav a:hover {
     background-color:aquamarine;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color:bisque;
@@ -61,6 +70,9 @@ nav a:hover {
     background-color:aquamarine;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 90px;
+    border-radius: 5px;
 }
 .join:hover{
     background-color:bisque;
@@ -72,13 +84,29 @@ footer{
     color:black;
     text-decoration: none;
     font-size: 1.2em;
+    padding: 25px 50px;
 }
 .logo {
     width:80px;
+    padding-top: 5px;
 }
 #hero-img{
     width: 100%;
 }
 footer p a:hover {
     text-decoration: underline;
+}
+.home-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+}
+.msg p{
+    font-size: .8em;
+    padding-bottom: 15px;
+}
+.card-img {
+    border: 10px solid #black;
+}
+main section img {
+    box-sizing: border-box;
 }
